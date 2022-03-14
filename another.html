@@ -1,0 +1,179 @@
+<html>
+<head>
+	<title>ULList</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+</head>
+<style>
+		.flexer{
+			display:flex;
+			justify-content: space-between;
+			align-items:center;
+			list-style-type: none;
+						margin-left:0;
+			position:relative;
+			padding-left: 0
+		}
+		img{
+			height:60px;
+			width:60px;
+			border-radius:10px;
+		}
+		.container{
+			box-shadow:0px 3px 5px 0px;
+			border-radius:10px;
+			padding:0;
+			margin:0;
+		}
+		.first{
+			align-items:center;
+			width:200px;
+		}
+		.btn{
+			border-radius:25px;
+			background-color: #58d68d;
+			border:0;
+
+			color:white;
+
+			width:200px;
+		}
+		.btn.default {
+
+		}
+		.btn.orange {
+			background-color: orange
+		}
+		.raise  button:nth-child(2), .raise button:nth-child(1){
+			background-color:transparent;
+			color: #5a94c6;
+			font-size:15px;
+			line-height:30px;
+			border:1px solid  #5a94c6 ;
+		}
+		.last_flex,.last_flex2,.last_flex3{
+			background-color: #525f6a;
+			color:white;
+			font-size:15px;
+		}
+
+		a{
+			text-decoration:none;
+			color: #86d1d7 ;
+		}
+		.flexer li:nth-child(4) > i,.flexer1 li:nth-child(4) > i,.flexer2 li:nth-child(4) > i{
+
+			color:grey;
+		}
+
+		.flexer li:nth-child(5),.flexer1 li:nth-child(5),.flexer2 li:nth-child(5) {
+
+			color:grey;
+		}
+		body{
+			    font-family: 'Open Sans', sans-serif;
+		}
+		.flexer li:first-of-type {
+  display: flex;
+}
+.flexer li:first-of-type img {
+  margin-right: 10px;
+}
+.flexer li:first-of-type a {
+  align-self: center;
+}
+	</style>
+<body>
+		<div class="container">
+			<ul class="flexer">
+				<li class="first">
+					<img src="bg.webp">
+					<a href="#">Testing 6 Demo</a>
+				</li>
+				<li>
+					<button type='button' class='btn default'>accepted</button>
+				</li>
+				<li>
+					<i class='fa fa-clock-o'></i>
+					<span>18 days</span>
+				</li>
+				<li>
+					<i class='fa fa-comment-o'></i>
+					<span>1</span>
+				</li>
+				<li>
+					<i class='fa fa-inr'></i>
+					<span>30000</span>
+				</li>
+				<li class="raise">
+					<button type='button'>Raise Invoice</button>
+					<button type='button'> Posts</button>
+					<button type='button' class="last_flex"><i class='fa fa-chevron-down'></i></button>
+				</li>
+			</ul>
+		</div>
+
+
+		<!-- container2 -->
+		<div class="container">
+			<ul class="flexer">
+				<li class="second">
+					<img src="bg.webp">
+					<a href="#">delete list test 2_1</a>
+				</li>
+				<li>
+					<button type='button' class='btn orange' style="">accepted</button>
+				</li>
+				<li>
+					<i class='fa fa-clock-o'></i>
+					<span>27 days</span>
+				</li>
+				<li>
+					<i class='fa fa-comment-o'></i>
+					<span>0</span>
+				</li>
+				<li>
+					<i class='fa fa-inr'></i>
+					<span>145944</span>
+				</li>
+				<li class="raise">
+					<button type='button'>Raise Invoice</button>
+					<button type='button'>Posts</button>
+					<button type='button' class="last_flex2"><i class='fa fa-chevron-down'></i></button>
+				</li>
+			</ul>
+		</div>
+
+
+			<div class="container">
+			<ul class="flexer">
+				<li clsas="third">
+					<img src="bg.webp">
+					<a href="#">Testing 6 Demo</a>
+				</li>
+				<li>
+					<button type='button' class='btn' style="background-color:purple;">negotiating</button>
+				</li>
+				<li>
+					<i class='fa fa-clock-o'></i>
+					<span>days</span>
+				</li>
+				<li>
+					<i class='fa fa-comment-o'></i>
+					<span>1</span>
+				</li>
+				<li>
+					<i class='fa fa-inr'></i>
+					<span>45000</span>
+				</li>
+				<li class="raise">
+					<button type='button'>Raise Invoice</button>
+					<button type='button'>Posts</button>
+					<button type='button' class="last_flex3"><i class='fa fa-chevron-down'></i></button>
+				</li>
+			</ul>
+		</div>
+	</body>
+	</html>
